@@ -45,7 +45,7 @@
                     <distr spec="beast.math.distributions.Exponential" mean="50"/>
                 </distribution>
                 <distribution spec='beast.math.distributions.Prior' x="@volz.origin">
-                    <distr spec="beast.math.distributions.Uniform"  lower="0" upper="100"/>
+                    <distr spec="beast.math.distributions.Exponential"  mean="@x"/>
                 </distribution>
             </distribution>
             
